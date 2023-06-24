@@ -18,10 +18,10 @@ const JobCard = ({ job }) => {
     <div className="border-4 border-gray-200 rounded-md shadow-md p-8 max-w-6xl  ">
       <h3 className="text-xl font-bold mb-2">{jobTitle}</h3>
       <p className="text-gray-500 mb-2">
-        {companyName} | {industry}
+        {companyName} - {industry}
       </p>
       <p className="text-gray-500 mb-2">
-        {location} | {remoteType}
+        {location} -( {remoteType})
       </p>
       <p className="text-gray-500 mb-2">
         Experience: ({minExperience} - {maxExperience}) years

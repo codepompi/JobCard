@@ -69,7 +69,7 @@ const FormPageTwo = ({ onDone }) => {
               placeholder="Minimum"
               id="minSalary"
               className="w-full px-4 py-2 border rounded-md"
-              value={minExperience}
+              value={minSalary}
               onChange={(e) => setMinSalary(e.target.value)}
             />
           </div>
@@ -79,7 +79,7 @@ const FormPageTwo = ({ onDone }) => {
               placeholder="Maximum"
               id="maxSalary"
               className="w-full px-4 py-2 border rounded-md"
-              value={maxExperience}
+              value={maxSalary}
               onChange={(e) => setMaxSalary(e.target.value)}
             />
           </div>

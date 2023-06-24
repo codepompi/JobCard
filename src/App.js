@@ -24,15 +24,15 @@ const App = () => {
   return (
     <Router>
       <div>
-        {/* <nav className="bg-indigo-500 py-4">
-          <div className="container mx-auto px-4">
+        <nav className="bg-indigo-500 py-4">
+          <div className="container mx-0 px-4">
             <ul className="flex items-center">
               <li className="mr-4">
                 <Link
                   to="/"
                   className="text-white hover:text-indigo-100 font-medium transition duration-200"
                 >
-                  Form Page One
+                  Step 1
                 </Link>
               </li>
               <li className="mr-4">
@@ -40,7 +40,7 @@ const App = () => {
                   to="/form-two"
                   className="text-white hover:text-indigo-100 font-medium transition duration-200"
                 >
-                  Form Page Two
+                  Step 2
                 </Link>
               </li>
               <li>
@@ -53,7 +53,7 @@ const App = () => {
               </li>
             </ul>
           </div>
-        </nav> */}
+        </nav>
         <div className="container mx-5 px-4 py-8 flex justify-center">
           <Routes>
             <Route path="/" element={<FormPageOne onNext={handleNext} />} />
